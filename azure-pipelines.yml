@@ -19,14 +19,7 @@ strategy:
   displayName: 'Use Python $(python.version)'
 - script: python "additon.py"
 - task: PythonScript@0
-
-
-  inputs:
-
-   scriptSource: 'inline'
-
-
-    script: |
-
-
-      print('welcome to klu')
+ inputs:
+  scriptSource: 'inline'
+   script: |
+            print('welcome to klu')
