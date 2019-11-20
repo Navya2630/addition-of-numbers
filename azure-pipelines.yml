@@ -29,4 +29,4 @@ strategy:
     script: |
 
 
-      print('WELCOME TO MY PROJECT')
+      print('welcome to klu')
